@@ -16,7 +16,7 @@ with open("README.md") as f:
 setup(
     name="plugin-loader",
     version="0.1.0dev",
-    description="importing helper for your app's plugin",
+    description="import helper for your app's plugin.",
     long_description=long_description,
     author="airtoxin",
     author_email="airtoxin@icloud.com",
