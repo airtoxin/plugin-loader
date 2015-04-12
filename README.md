@@ -10,7 +10,7 @@ import helper for your app's plugin.
 
 Wildcard is *
 
-```
+```python
 from plugin_loader import load_plugin
 
 plugins = load_plugin("flask_*")
