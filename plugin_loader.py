@@ -3,11 +3,6 @@
 
 import pkgutil, re, importlib
 
-u"""
-* is wildcard
-ex)
-myapp_plugin_*
-"""
 def load_plugin(plugin_naming_rule):
     prepat = "^" + re.escape(plugin_naming_rule).replace("\\*", "[a-zA-Z0-9_]+") + "$"
     pat = re.compile(prepat)
