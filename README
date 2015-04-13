@@ -1,0 +1,47 @@
+plugin-loader
+=============
+
+import helper for your app's plugin.
+
+|image0| |image1| |image2| |image3|
+
+Install
+-------
+
+``$ pip install plugin-loader``
+
+Usage
+-----
+
+Wildcard is \*
+
+.. code:: python
+
+    from plugin_loader import load_plugin
+
+    plugins = load_plugin("flask_*")
+
+your app's plugin name must be ruled.
+
+ex.
+
+-  flask\_hoge, flask\_fuga, ...
+-  fluent\_plugin\_hoge, fluent\_plugin\_fuga, ...
+-  gulp\_hoge, gulp\_fuga, ...
+
+Develop
+-------
+
+update readme
+~~~~~~~~~~~~~
+
+``$ pandoc -f markdown -t rst README.md > README``
+
+.. |image0| image:: https://pypip.in/v/plugin-loader/badge.svg
+   :target: https://pypi.python.org/pypi/plugin-loader/
+.. |image1| image:: https://pypip.in/egg/plugin-loader/badge.svg
+   :target: https://pypi.python.org/pypi/plugin-loader/
+.. |image2| image:: https://pypip.in/wheel/plugin-loader/badge.svg
+   :target: https://pypi.python.org/pypi/plugin-loader/
+.. |image3| image:: https://pypip.in/license/plugin-loader/badge.svg
+   :target: https://pypi.python.org/pypi/plugin-loader/

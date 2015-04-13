@@ -4,12 +4,12 @@
 from __future__ import with_statement
 from setuptools import setup
 
-with open("README.md") as f:
+with open("README") as f:
     long_description = f.read()
 
 setup(
     name="plugin-loader",
-    version="0.1.0",
+    version="0.1.1",
     description="import helper for your app's plugin.",
     long_description=long_description,
     author="airtoxin",
