@@ -3,10 +3,10 @@
 import helper for your app's plugin.
 
 
-[![](https://pypip.in/v/plugin-loader/badge.svg)](https://pypi.python.org/pypi/plugin-loader/)
+[![](https://img.shields.io/pypi/v/plugin-loader.svg)](https://pypi.python.org/pypi/plugin-loader/)
 [![](https://pypip.in/egg/plugin-loader/badge.svg)](https://pypi.python.org/pypi/plugin-loader/)
-[![](https://pypip.in/wheel/plugin-loader/badge.svg)](https://pypi.python.org/pypi/plugin-loader/)
-[![](https://pypip.in/license/plugin-loader/badge.svg)](https://pypi.python.org/pypi/plugin-loader/)
+[![](https://img.shields.io/pypi/wheel/plugin-loader.svg)](https://pypi.python.org/pypi/plugin-loader/)
+[![](https://img.shields.io/pypi/l/plugin-loader.svg)](https://pypi.python.org/pypi/plugin-loader/)
 
 ## Install
 
